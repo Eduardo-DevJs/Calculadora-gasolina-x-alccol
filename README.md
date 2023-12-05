@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Calculadora de Combustível
+Uma simples aplicação em React para te auxiliar a decidir entre abastecer com álcool ou gasolina. Insira os preços por litro e descubra a opção mais econômica!
 
-Currently, two official plugins are available:
+Funcionalidades
+Entrada de Dados: Insira os preços por litro de álcool e gasolina.
+Cálculo Automático: A aplicação realiza automaticamente o cálculo e exibe a opção mais vantajosa.
+Formatação de Moeda: Os valores são exibidos em formato de moeda brasileira (BRL).
+Como Usar
+Clone este repositório.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+git clone https://github.com/seu-usuario/calculadora-combustivel.git
+Instale as dependências.
 
-## Expanding the ESLint configuration
+bash
+Copy code
+cd calculadora-combustivel
+npm install
+Execute a aplicação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+npm start
+Acesse a aplicação no navegador: http://localhost:3000.
 
-- Configure the top-level `parserOptions` property like this:
+Tecnologias Utilizadas
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+CSS: Estilização básica utilizando folhas de estilo.
+JavaScript (ES6+): Linguagem de programação para a lógica da aplicação.
+Contribuindo
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Autor
+Eduardo de Oliveira
